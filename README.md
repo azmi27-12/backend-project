@@ -1,6 +1,7 @@
 # Backend project
 
 ## Funzionamento 
+
 L'app serve a gestire gli allenamenti degli utenti che si registrano ad essa e creano una scheda di allenamenti tramite le 
 
 Per tesare il funzionamento dell'API REST è necessario utilizzare postman, e digitare l'url : localhost:3000/api/user/register
