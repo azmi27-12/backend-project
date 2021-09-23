@@ -4,14 +4,12 @@ module.exports = (sequelize, Sequelize) => {
     
     name: {
         type: Sequelize.STRING,
-        required : true,
         min : 4, 
         max : 255
     },
     
     email: {
         type: Sequelize.STRING,
-        required : true,
         max : 255,
         min : 6
 
@@ -19,7 +17,6 @@ module.exports = (sequelize, Sequelize) => {
     
     password: {
         type: Sequelize.STRING,
-        required : true,
         max : 1024,
         min : 6
     },
