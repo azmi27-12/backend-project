@@ -8,3 +8,11 @@ Per chiamare le funzioni dell'API bisogna registrarsi inserendo nome, email e pa
 
 ![Scheme](https://github.com/azmi27-12/backend-project/blob/master/screenshoot/register.PNG)
 
+In seguito bisognera eseguire il login e verrà generato un token che andrà incollato nella sezione headers di postman sotto il nome di auth-token
+
+![Scheme](https://github.com/azmi27-12/backend-project/blob/master/screenshoot/login.PNG)
+
+![Scheme](https://github.com/azmi27-12/backend-project/blob/master/screenshoot/jwt.PNG)
+
+
+
