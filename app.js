@@ -11,11 +11,10 @@ const app = express()
 const db = require("./model");
 db.sequelize.sync();
 
-//middlewares
 app.use(express.json());
 
 
-//Route middlewares
+//Routes
 app.use('/api/user', authROute);
 app.use('/api/logged', loggedRoute);
 
